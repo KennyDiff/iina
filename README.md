@@ -14,6 +14,11 @@
 
 ---
 
+## KMOD TODO
+
+- 点词可立即翻译
+- 热键立即切换主语言/母语或双语字幕
+
 ## Features
 
 * Based on [mpv](https://github.com/mpv-player/mpv), which provides the best decoding capacity on macOS
@@ -74,13 +79,13 @@ IINA uses mpv for media playback. To build IINA, you can either fetch copies of 
 4. Run `other/change_lib_dependencies.rb`. This script will deploy the dependent libraries into `deps/lib`. If you're using a package manager to manage dependencies, invoke it like so:
 
 		#### With Homebrew
-
+	
 		```console
 		$ other/change_lib_dependencies.rb "$(brew --prefix)" "$(brew --prefix mpv-iina)/lib/libmpv.dylib"
 		```
-
+	
 		#### With MacPorts
-
+	
 		```console
 		$ port contents mpv | grep '\.dylib$' | xargs other/change_lib_dependencies.rb /opt/local
 		```
