@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -511,6 +511,9 @@ CA
                                 <modifierMask key="keyEquivalentModifierMask"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="EvW-J9-wqJ"/>
+                            <menuItem title="Quick Cycle Subtitles" tag="2" keyEquivalent="s" id="aOs-hC-7Tt">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
                             <menuItem title="Cycle Subtitles" tag="2" id="sgu-dK-IGE">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                             </menuItem>
@@ -664,7 +667,7 @@ CA
                     </menu>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="140" y="154"/>
+            <point key="canvasLocation" x="84" y="-655"/>
         </menu>
         <customObject id="cyK-tE-xgA" customClass="MenuController" customModule="IINA" customModuleProvider="target">
             <connections>
@@ -744,6 +747,7 @@ CA
                 <outlet property="previousChapter" destination="pqF-SZ-Ifz" id="91k-3h-xnp"/>
                 <outlet property="previousFrame" destination="oxF-BB-lBy" id="Kx8-vs-jMi"/>
                 <outlet property="previousMedia" destination="oqG-7L-NLD" id="8th-d4-X6L"/>
+                <outlet property="quickCycleSubtitles" destination="aOs-hC-7Tt" id="yFF-7z-iVe"/>
                 <outlet property="quickSettingsAudio" destination="43n-Ed-5kT" id="Pq5-b6-o5G"/>
                 <outlet property="quickSettingsSub" destination="8y7-Cy-lKT" id="Dh8-CP-Coh"/>
                 <outlet property="quickSettingsVideo" destination="2t8-Ot-yoO" id="Bey-Dn-4dY"/>
@@ -785,7 +789,7 @@ CA
                     </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="18.5" y="678.5"/>
+            <point key="canvasLocation" x="-17" y="579"/>
         </menu>
         <customObject id="wTK-gz-aTs" customClass="SUUpdater"/>
     </objects>

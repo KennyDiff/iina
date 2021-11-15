@@ -958,7 +958,7 @@
 		84AABE961DBFB62F00D138FD /* FixedFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedFontManager.h; sourceTree = "<group>"; };
 		84AABE971DBFB62F00D138FD /* FixedFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedFontManager.m; sourceTree = "<group>"; };
 		84AB8BCE2122235900E478BB /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/PrefUtilsViewController.strings; sourceTree = "<group>"; };
-		84AE59481E0FD65800771B7E /* MainMenuActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuActions.swift; sourceTree = "<group>"; };
+		84AE59481E0FD65800771B7E /* MainMenuActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = MainMenuActions.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
 		84AF03D51E674930003E3753 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Contribution.rtf"; sourceTree = "<group>"; };
 		84B3B1EB23C0CE7100340754 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		84B3B1EC23C0CE7100340754 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/MainWindowController.strings; sourceTree = "<group>"; };
@@ -1608,8 +1608,11 @@
 				49542981216C34950058F680 /* ToolbarItemIcon.pdf */,
 				49542983216C34950058F680 /* OpenInIINA.entitlements */,
 			);
+			indentWidth = 4;
 			path = OpenInIINA;
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		8452DD7F1D3A1F2A008A543A /* Preference */ = {
 			isa = PBXGroup;
@@ -1676,9 +1679,12 @@
 			children = (
 				8461BA671E4237C2008BB852 /* youtube-dl */,
 			);
+			indentWidth = 4;
 			name = Executables;
 			path = iina;
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		847557121F405F2B0006B0FF /* Menu */ = {
 			isa = PBXGroup;
@@ -1755,8 +1761,11 @@
 				496B19911E2968530035AF10 /* PIP.framework */,
 				49542974216C34950058F680 /* Cocoa.framework */,
 			);
+			indentWidth = 4;
 			name = Frameworks;
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		84A0BAA21D2FAE8200BC8DA1 /* Assets */ = {
 			isa = PBXGroup;
@@ -2148,10 +2157,10 @@
 				8461BA641E42344D008BB852 /* Executables */,
 				848290731D95978100C3C76C /* Frameworks */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		84EB1ED71D2F51D3004FA5A1 /* Products */ = {
 			isa = PBXGroup;
@@ -2160,8 +2169,11 @@
 				E3DE8DCA1FD8166A0021921C /* iina-cli */,
 				49542973216C34950058F680 /* OpenInIINA.appex */,
 			);
+			indentWidth = 4;
 			name = Products;
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		84EB1ED81D2F51D3004FA5A1 /* iina */ = {
 			isa = PBXGroup;
@@ -2176,11 +2188,11 @@
 				8452DD7F1D3A1F2A008A543A /* Preference */,
 				84A0BAA61D2FAF8400BC8DA1 /* Utils */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			path = iina;
 			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		84FF846D1D2FF698001B318A /* deps */ = {
 			isa = PBXGroup;
@@ -2222,8 +2234,11 @@
 			children = (
 				E3DE8DCC1FD8166A0021921C /* main.swift */,
 			);
+			indentWidth = 4;
 			path = "iina-cli";
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 /* End PBXGroup section */
 

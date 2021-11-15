@@ -9,14 +9,14 @@
 import Foundation
 
 extension MiniPlayerWindowController {
-
-  @objc func menuAlwaysOnTop(_ sender: AnyObject) {
-    setWindowFloatingOnTop(!isOntop)
-  }
-
-
-  @objc func menuSwitchToMiniPlayer(_ sender: NSMenuItem) {
-    player.switchBackFromMiniPlayer(automatically: false)
-  }
-
+	
+	@objc func menuAlwaysOnTop(_ sender: AnyObject) {
+		setWindowFloatingOnTop(!isOntop)
+	}
+	
+	
+	@objc func menuSwitchToMiniPlayer(_ sender: NSMenuItem) {
+		player.switchBackFromMiniPlayer(automatically: false)
+	}
+	
 }

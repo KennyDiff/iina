@@ -14,10 +14,30 @@
 
 ---
 
+## Why KMOD 
+
+很喜欢看电影/剧集，这些影视作品也是很好的听力学习材料。如果坚持看英文字幕版的电影/剧集，能很明显的提升英文听力水平。 如何让看英文字幕的剧集的时候不那么吃力，就是这个MOD的动力。打算完成以下目标。
+
 ## KMOD TODO
 
-- 点词可立即翻译
-- 热键立即切换主语言/母语或双语字幕
+- [x] 在界面 插入一个入口函数。。。。 绑定热键。。。 做DEBUG入口
+
+- [ ] 能指定切换至英文 / 中文字幕 ,,, 忽略其他所有字幕/包括无字幕的干扰
+
+- [ ] 切换至英文字幕 or 内部字幕的时候///无法刷新字幕？（即使当前时间点是有字幕的)
+
+- [ ] 暂停可以高亮词汇，点词可翻译
+
+- [ ] 热键立即切换主语言/母语或双语字幕,刷新当前帧,强制显示字幕
+
+## Hotkey Define
+
+参照CS游戏的热键定义，ASDW + [SPACE] 五个主热键 + FQEC四个次热键 
+
+- 空格 --> 长按，临时切换至第二字幕，，放手切回主字幕，，，
+- A --> 跳到上个字幕
+- S --> 暂停
+- D --> 跳到下个字幕
 
 ## Features
 
@@ -79,13 +99,13 @@ IINA uses mpv for media playback. To build IINA, you can either fetch copies of 
 4. Run `other/change_lib_dependencies.rb`. This script will deploy the dependent libraries into `deps/lib`. If you're using a package manager to manage dependencies, invoke it like so:
 
 		#### With Homebrew
-	
+		
 		```console
 		$ other/change_lib_dependencies.rb "$(brew --prefix)" "$(brew --prefix mpv-iina)/lib/libmpv.dylib"
 		```
-	
+		
 		#### With MacPorts
-	
+		
 		```console
 		$ port contents mpv | grep '\.dylib$' | xargs other/change_lib_dependencies.rb /opt/local
 		```
